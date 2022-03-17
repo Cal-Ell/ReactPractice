@@ -1,0 +1,45 @@
+.bottle {
+  width: 100px;
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.bottleLid {
+  height: 40px;
+  width: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-left: 4px black solid;
+  border-top: 4px black solid;
+  border-right: 4px black solid;
+}
+
+.bottleTop {
+  height: 50px;
+  width: 60px;
+  border-left: 2px black solid;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottleMiddle {
+  height: 50px;
+  width: 60px;
+  border-left: 2px black solid;
+  border-right: 2px solid black;
+}
+
+.bottleBottom {
+  height: 50px;
+  width: 60px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 2px black solid;
+  border-left: 2px black solid;
+  border-right: 2px solid black;
+}
